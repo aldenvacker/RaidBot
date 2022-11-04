@@ -72,7 +72,7 @@ versionCheck().then(async (data) => {
 
     client
       .login(
-        "MTAzMzY3MjI5Nzg4NzgzNDE5NA.G3pQVE.dR_wWKaMfymyl4XkjWyG1RvrjYOtN5oie8YTAM"
+        token
       )
       .catch(async (err) => {
         console.error(
