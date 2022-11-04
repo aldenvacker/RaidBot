@@ -70,7 +70,7 @@ module.exports = class TextChannelCommand extends Commando.Command {
           })
           .then((channel) => {
             channel.send(
-              `||@everyone||\nVenez dans un meilleur serveur de Cassin ! https://discord.gg/xy2WWQVW`
+              `||@everyone||\n Vous êtes spam text !`
             );
           });
       }, 1000);
