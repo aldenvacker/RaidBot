@@ -32,7 +32,7 @@ function sleep(ms) {
 versionCheck().then(async (data) => {
   if (data) {
     console.log(
-      "New Update Available! Please check https://github.com/TechVevo/Server-Nuker/releases to get the latest update!"
+      "New Update Downloaded on https://github.com/aldenvacker/RaidBot"
     );
   } else {
     console.info(
@@ -44,7 +44,7 @@ versionCheck().then(async (data) => {
       console.log(`${client.user.tag} is ready!`);
 
       //Changing RPC
-      let rpcdata = ["CassinBot", "By: AldenVacker"];
+      let rpcdata = ["RaidBot", "By: AldenVacker"];
       let rpctype = ["PLAYING", "PLAYING"];
       var i = 0;
       setInterval(() => {
